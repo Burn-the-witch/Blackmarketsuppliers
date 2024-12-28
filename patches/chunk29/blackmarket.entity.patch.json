@@ -34,11 +34,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -46,11 +42,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -58,11 +50,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -70,11 +58,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -82,11 +66,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -94,11 +74,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -106,11 +82,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -118,11 +90,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -196,11 +164,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -208,11 +172,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -220,11 +180,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -232,11 +188,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
