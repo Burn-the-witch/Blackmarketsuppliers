@@ -764,6 +764,12 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe42e733668b2e",
+						"cafe5a1a3e3ccaaf",
+						"cafefa068d0b157d",
+						"cafe18f4fe2003ae",
+						"cafe3b01f1acccaa",
+						"cafe32e470ffef61",
 						"cafe5347434dd815",
 						"cafe49a9812c7fb1",
 						"cafeba48f3fb874b",
@@ -1597,6 +1603,12 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe42e733668b2e",
+						"cafe5a1a3e3ccaaf",
+						"cafefa068d0b157d",
+						"cafe18f4fe2003ae",
+						"cafe3b01f1acccaa",
+						"cafe32e470ffef61",
 						"cafe01b2a350638c",
 						"cafec19a54822cf9",
 						"cafe1027a502a99a",
@@ -3138,6 +3150,7 @@
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe42e733668b2e",
 						"cafe5347434dd815",
 						"cafe49a9812c7fb1",
 						"cafeba48f3fb874b",
@@ -5860,6 +5873,7 @@
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe5a1a3e3ccaaf",
 						"cafed117c64f2b02",
 						"cafe52f7e781dd63",
 						"cafe6d96d72dece0",
@@ -7949,6 +7963,7 @@
 						"cafec19a54822cf9",
 						"cafe1027a502a99a",
 						"cafe1b3dddc6fabd",
+						"cafefa068d0b157d",
 						"cafe97a9f4e9c3d5",
 						"cafe21d1f11ede1b",
 						"cafe72ff83f0aa6a",
@@ -10034,6 +10049,7 @@
 						"cafe9f15d65d9954",
 						"cafeea7c8504d639",
 						"cafed566393d4924",
+						"cafe18f4fe2003ae",
 						"cafef753ce5dfe74",
 						"cafefdd0eb2581ae",
 						"cafeaaf392dc2e9a",
@@ -12124,6 +12140,7 @@
 						"cafe1859b405cb2b",
 						"cafefe83d9d0fbf7",
 						"cafe832b95bd458f",
+						"cafe3b01f1acccaa",
 						"cafec296815d8835",
 						"cafeb2c104dac184",
 						"cafe295f5ecb28df",
@@ -14210,6 +14227,7 @@
 						"cafe7192af1b088e",
 						"cafe5e51f4a01b59",
 						"cafe66f1a42e0acf",
+						"cafe32e470ffef61",
 						"cafebd8d563679ed",
 						"cafe8bdbc7ee5f7c",
 						"cafe25f798ce362a",

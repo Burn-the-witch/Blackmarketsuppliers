@@ -794,6 +794,7 @@
 						"cafeacd68dc48eee",
 						"cafe191f9ef65514",
 						"cafe94526c075522",
+						"cafe25f3ade18e5d",
 						"cafea3df92ae918d",
 						"cafe20466aba2396",
 						"cafef4c47b5ab064",
@@ -1309,6 +1310,7 @@
 						"cafea3df92ae918d",
 						"cafe1c89c5c768ac",
 						"cafeea12649268cc",
+						"cafe25f3ade18e5d",
 						"cafeacd68dc48eee",
 						"cafed1e1b930b303",
 						"cafe20466aba2396",
@@ -2672,6 +2674,7 @@
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
 						"cafeee11e6e4d32e",
+						"cafe25f3ade18e5d",
 						"cafea77430b62696",
 						"cafeea12649268cc"
 					]
@@ -4667,6 +4670,33 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafe72fb583c399f",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe25f3ade18e5d": {
+			"parent": "cafe37c2d5691435",
+			"name": " Ornamental AR",
+			"factory": "00BEBA46CA8E0D4E",
+			"blueprint": "0067341A9CFDEB1A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": 90.0, "z": -180.0 },
+						"position": { "x": 0.473, "y": 0, "z": -0.091 }
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe37c2d5691435",
 					"postInit": true
 				}
 			},
