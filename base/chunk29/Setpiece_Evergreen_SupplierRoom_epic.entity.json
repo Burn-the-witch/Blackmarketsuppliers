@@ -1,6 +1,6 @@
 {
-	"tempHash": "007232AC0C534410",
-	"tbluHash": "00CCCD10921B82DD",
+	"tempHash": "00A341B746C81344",
+	"tbluHash": "00F76E4D62E37AF6",
 	"rootEntity": "22edf43d9609168f",
 	"entities": {
 		"0a1533829baaf31b": {
@@ -28,13 +28,13 @@
 					"value": {
 						"rotation": {
 							"x": 89.99490067557804,
-							"y": 0,
-							"z": 0
+							"y": 0.0,
+							"z": -0.0
 						},
 						"position": {
 							"x": 0.09261400252580644,
 							"y": -0.02289699949324131,
-							"z": 3
+							"z": 3.0
 						}
 					}
 				},
@@ -63,10 +63,13 @@
 					"Pick": [
 						"d7fdd9142b0d3725",
 						"cafe5d9dd01ce6f5",
+						"cafe37c2d5691435",
 						"cafe31075d677b59",
 						"cafe064fdf2a3a96",
+						"cafeff1fc4212bff",
 						"cafefcc6ca80c34c",
-						"cafe5b2d8193f0a0"
+						"cafe5b2d8193f0a0",
+						"cafee9a4c37667b6"
 					]
 				},
 				"Out01": {
@@ -80,6 +83,10 @@
 							"value": { "type": "bool", "value": true }
 						},
 						{
+							"ref": "cafe37c2d5691435",
+							"value": { "type": "bool", "value": true }
+						},
+						{
 							"ref": "cafe31075d677b59",
 							"value": { "type": "bool", "value": true }
 						},
@@ -88,11 +95,19 @@
 							"value": { "type": "bool", "value": true }
 						},
 						{
+							"ref": "cafeff1fc4212bff",
+							"value": { "type": "bool", "value": true }
+						},
+						{
 							"ref": "cafefcc6ca80c34c",
 							"value": { "type": "bool", "value": true }
 						},
 						{
 							"ref": "cafe5b2d8193f0a0",
+							"value": { "type": "bool", "value": true }
+						},
+						{
+							"ref": "cafee9a4c37667b6",
 							"value": { "type": "bool", "value": true }
 						}
 					]
@@ -116,11 +131,19 @@
 							"value": { "type": "bool", "value": false }
 						},
 						{
+							"ref": "cafeff1fc4212bff",
+							"value": { "type": "bool", "value": false }
+						},
+						{
 							"ref": "cafefcc6ca80c34c",
 							"value": { "type": "bool", "value": false }
 						},
 						{
 							"ref": "cafe5b2d8193f0a0",
+							"value": { "type": "bool", "value": false }
+						},
+						{
+							"ref": "cafee9a4c37667b6",
 							"value": { "type": "bool", "value": false }
 						}
 					]
@@ -208,22 +231,53 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[-6, 0.02542644366621971, 0, 0, 0, 0, 0.008293857797980309, 0.02542644366621971],
-							[-5.28280782699585, 0.03372030332684517, 0, 0, 0, 0, -0.000168123995536007, 0.03372030332684517],
 							[
-								-2.042663335800171, 0.033552177250385284, 0, 0, 0, 0, 0.003516183467581868,
+								-6, 0.02542644366621971, 0, 0, 0, 0,
+								0.008293857797980309, 0.02542644366621971
+							],
+							[
+								-5.28280782699585, 0.03372030332684517, 0,
+								0, 0, 0, -0.000168123995536007,
+								0.03372030332684517
+							],
+							[
+								-2.042663335800171, 0.033552177250385284,
+								0, 0, 0, 0, 0.003516183467581868,
 								0.033552177250385284
 							],
 							[
-								-0.40257877111434937, 0.037068359553813934, 0, 0, 0, 0, 0.008647884242236614,
+								-0.40257877111434937, 0.037068359553813934,
+								0, 0, 0, 0, 0.008647884242236614,
 								0.037068359553813934
 							],
-							[0.10037359595298768, 0.04571624472737312, 0, 0, 0, 0, 0.02321554347872734, 0.04571624472737312],
-							[0.4202570915222168, 0.06893178820610046, 0, 0, 0, 0, 0.04111509770154953, 0.06893178820610046],
-							[0.6921137571334839, 0.11004688590765, 0, 0, 0, 0, 0.2098948359489441, 0.11004688590765],
-							[1.4594968557357788, 0.3199417293071747, 0, 0, 0, 0, 0.04563612118363381, 0.3199417293071747],
-							[1.751643419265747, 0.3655778467655182, 0, 0, 0, 0, 0.028978655114769936, 0.3655778467655182],
-							[2.237194299697876, 0.3945564925670624, 0, 0, 0, 0, 0, 0.3945564925670624]
+							[
+								0.10037359595298768, 0.04571624472737312,
+								0, 0, 0, 0, 0.02321554347872734,
+								0.04571624472737312
+							],
+							[
+								0.4202570915222168, 0.06893178820610046, 0,
+								0, 0, 0, 0.04111509770154953,
+								0.06893178820610046
+							],
+							[
+								0.6921137571334839, 0.11004688590765, 0, 0,
+								0, 0, 0.2098948359489441, 0.11004688590765
+							],
+							[
+								1.4594968557357788, 0.3199417293071747, 0,
+								0, 0, 0, 0.04563612118363381,
+								0.3199417293071747
+							],
+							[
+								1.751643419265747, 0.3655778467655182, 0,
+								0, 0, 0, 0.028978655114769936,
+								0.3655778467655182
+							],
+							[
+								2.237194299697876, 0.3945564925670624, 0,
+								0, 0, 0, 0, 0.3945564925670624
+							]
 						]
 					}
 				}
@@ -365,8 +419,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90, "y": 0, "z": -180 },
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": -180.0
+						},
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
 				"m_eidParent": {
@@ -397,7 +455,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
 							"x": 1.0309209823608398,
 							"y": -0.1020670011639595,
@@ -429,7 +487,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 0.6267939805984497,
 							"y": -4.807822227478027,
@@ -493,7 +555,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 1.9355189800262451,
 							"y": -4.807822227478027,
@@ -574,7 +640,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -2.03245210647583,
 							"y": -4.807822227478027,
@@ -665,7 +735,7 @@
 						"rotation": {
 							"x": -142.00002944659155,
 							"y": 0.06903032091056921,
-							"z": -179.9952887723469
+							"z": -179.99528877234692
 						},
 						"position": {
 							"x": -0.009999999776482582,
@@ -733,15 +803,48 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe637ab57edb2f",
+						"cafe255f49b0c344",
 						"cafeb5cf64f8c3d2",
-						"cafe2e3beb88a776",
-						"feedb0f9cda31a31",
+						"cafe6cb8ed9064fd",
+						"cafe6e951a2902dc",
+						"cafeb3c3448155a0",
+						"cafe53e0fb76b78f",
+						"cafe1f798a914b5f",
+						"cafef84627c37613",
+						"cafe63f691d9939b",
+						"cafeb719e4be1a28",
+						"cafe4c04e74a62b2",
+						"cafe7bf181858c77",
+						"cafeffc43a45fd71",
+						"cafe7e7718234fa9",
+						"cafe276fe7117935",
+						"cafeb5da199d86fb",
+						"cdd2ab745dd91a37",
 						"cafe9b5bdfa4061e",
+						"cafe3573604ff533",
+						"cafeee11e6e4d32e",
+						"cafea77430b62696",
 						"cafe8c32a204703c",
+						"cafe8d846b70acd2",
+						"cafe529b2f9a31c0",
 						"cafe6886708c8622",
+						"cafe37aedf3f9f54",
+						"cafec62d7d216474",
 						"cafe96c7a7121712",
+						"cafee79dd642d05e",
 						"cafebb6cdc089a89",
+						"cafe8c14177e75cc",
+						"cafe437cf49b48e4",
+						"cafe97bbc9282e76",
+						"cafebd4d490a930a",
+						"cafed57f8d4bad14",
+						"cafe9a8954d05ef6",
+						"cafe942c017e87b2",
+						"cafec45201e32694",
+						"cafe3fc57f5cd7ca",
 						"cafe3267c0d0633c",
+						"cafed4365bd8225b",
 						"cafe48b9564b716e"
 					],
 					"postInit": true
@@ -1125,7 +1228,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 1.9355189800262451,
 							"y": -4.807822227478027,
@@ -1216,15 +1323,48 @@
 				"m_entries": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
+						"cafe637ab57edb2f",
+						"cafe255f49b0c344",
 						"cafeb5cf64f8c3d2",
-						"cafe2e3beb88a776",
-						"feedb0f9cda31a31",
+						"cafe7e7718234fa9",
+						"cafe53e0fb76b78f",
+						"cafeb5da199d86fb",
+						"cafe6e951a2902dc",
+						"cafeb3c3448155a0",
+						"cafe1f798a914b5f",
+						"cafef84627c37613",
+						"cafe63f691d9939b",
+						"cafeb719e4be1a28",
+						"cafe4c04e74a62b2",
+						"cafe7bf181858c77",
+						"cafe6cb8ed9064fd",
+						"cafeffc43a45fd71",
+						"cafe276fe7117935",
+						"cdd2ab745dd91a37",
 						"cafe9b5bdfa4061e",
+						"cafe3573604ff533",
+						"cafeee11e6e4d32e",
+						"cafea77430b62696",
 						"cafe8c32a204703c",
+						"cafe8d846b70acd2",
+						"cafe529b2f9a31c0",
 						"cafe6886708c8622",
+						"cafe37aedf3f9f54",
+						"cafec62d7d216474",
 						"cafe96c7a7121712",
+						"cafee79dd642d05e",
 						"cafebb6cdc089a89",
+						"cafe8c14177e75cc",
+						"cafe437cf49b48e4",
+						"cafe97bbc9282e76",
+						"cafebd4d490a930a",
+						"cafed57f8d4bad14",
+						"cafe9a8954d05ef6",
+						"cafe942c017e87b2",
+						"cafec45201e32694",
+						"cafe3fc57f5cd7ca",
 						"cafe3267c0d0633c",
+						"cafed4365bd8225b",
 						"cafe48b9564b716e"
 					],
 					"postInit": true
@@ -1274,7 +1414,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -0.7217829823493958,
 							"y": -4.807822227478027,
@@ -1328,6 +1472,41 @@
 				}
 			}
 		},
+		"cdd2ab745dd91a37": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "epic janbiya",
+			"factory": "00473A6B85DD7492",
+			"blueprint": "008C375F6467DB27",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": -0.0041252962530359,
+							"z": 179.97610766103642
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
 		"88e51aa285e0aa7f": {
 			"parent": "7f7698a22dd99f6e",
 			"name": "evergreen_trade_sphere_a",
@@ -1338,11 +1517,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -180,
+							"x": -180.0,
 							"y": 7.016475288982677e-15,
-							"z": -180
+							"z": -180.0
 						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
 				"Override": { "type": "bool", "value": true },
@@ -1368,7 +1547,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 1.9355189800262451,
 							"y": -4.807822227478027,
@@ -1432,7 +1615,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -2.03245210647583,
 							"y": -4.807822227478027,
@@ -1502,7 +1689,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 0.6267939805984497,
 							"y": -4.807822227478027,
@@ -1588,7 +1779,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -0.7217829823493958,
 							"y": -4.807822227478027,
@@ -1776,7 +1971,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -2.03245210647583,
 							"y": -4.807822227478027,
@@ -1924,7 +2123,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
 						"position": {
 							"x": 0.5749890208244324,
 							"y": -0.4857330024242401,
@@ -1952,10 +2151,10 @@
 					"value": {
 						"rotation": {
 							"x": 4.999999560214309,
-							"y": 0,
-							"z": 0
+							"y": 0.0,
+							"z": -0.0
 						},
-						"position": { "x": 0, "y": 0.5, "z": 1 }
+						"position": { "x": 0.0, "y": 0.5, "z": 1.0 }
 					}
 				},
 				"m_fDiffusePower": { "type": "float32", "value": 50 },
@@ -2079,7 +2278,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": -0.7217829823493958,
 							"y": -4.807822227478027,
@@ -2247,11 +2450,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -180,
+							"x": -180.0,
 							"y": 7.016475288982677e-15,
-							"z": -180
+							"z": -180.0
 						},
-						"position": { "x": 0, "y": 0, "z": 0 }
+						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -2282,7 +2485,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 90, "y": 0, "z": 0 },
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
 						"position": {
 							"x": 0.6267939805984497,
 							"y": -4.807822227478027,
@@ -2347,13 +2554,24 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedb0f9cda31a31"]
+					"value": [
+						"cdd2ab745dd91a37",
+						"cafe3573604ff533",
+						"cafe7e7718234fa9",
+						"cafe6cb8ed9064fd",
+						"cafe276fe7117935",
+						"cafeffc43a45fd71"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 90, "z": 0 },
-						"position": { "x": 0.6, "y": 0, "z": -0.6 }
+						"rotation": {
+							"x": 0.0,
+							"y": 89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.6, "y": 0.0, "z": -0.6 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2402,8 +2620,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": -20 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 0.0, "z": -20.0 }
 					}
 				}
 			},
@@ -2438,57 +2656,22 @@
 				]
 			}
 		},
-		"feedb0f9cda31a31": {
-			"parent": "d7fdd9142b0d3725",
-			"name": "Carved Knife",
-			"factory": "0092265982E5CE80",
-			"blueprint": "00F5DD6B3D94DBAD",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": -90.0,
-							"y": -180.00412529625302,
-							"z": 179.97610766103642
-						},
-						"position": {
-							"x": -0.09999999932944774,
-							"y": 0,
-							"z": -0.08
-						}
-					}
-				},
-				"Supplier": { "type": "bool", "value": true },
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "d7fdd9142b0d3725",
-					"postInit": true
-				}
-			},
-			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
-		},
 		"cafe9b5bdfa4061e": {
 			"parent": "cafe5d9dd01ce6f5",
-			"name": "Masasume",
-			"factory": "0065B02AAF4E1511",
-			"blueprint": "00EC268A328DE2FD",
+			"name": "Katana",
+			"factory": "006A9526E5B8B987",
+			"blueprint": "005084C505BD076E",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -90,
-							"z": 179.97610766103642
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
 						},
-						"position": { "x": -1.2, "y": 0, "z": -0.6 }
+						"position": { "x": -1.2, "y": 0.0, "z": -0.6 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2516,13 +2699,17 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe9b5bdfa4061e"]
+					"value": ["cafe9b5bdfa4061e", "cafe255f49b0c344"]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0.25, "y": 0, "z": -0.77 }
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2537,6 +2724,144 @@
 				}
 			}
 		},
+		"cafe37c2d5691435": {
+			"parent": "4d661fa986a84d18",
+			"name": "Assault Rifles",
+			"factory": "0065C766B156793F",
+			"blueprint": "0013B44A023B3A0B",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafeee11e6e4d32e",
+						"cafea77430b62696",
+						"cafe53e0fb76b78f"
+					]
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": 89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.6, "y": 0.0, "z": -0.6 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_Seed": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe3573604ff533": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "epic fiberwire",
+			"factory": "0098B826F80D5B85",
+			"blueprint": "000789863CDF2793",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeee11e6e4d32e": {
+			"parent": "cafe37c2d5691435",
+			"name": " RS15",
+			"factory": "005E251F6D7C75EB",
+			"blueprint": "00C84F68EB34648E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.473, "y": 0.0, "z": -0.091 }
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe37c2d5691435",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafea77430b62696": {
+			"parent": "cafe37c2d5691435",
+			"name": "A33 Gold",
+			"factory": "00F1D3CEB44304CD",
+			"blueprint": "0037B83BC8296577",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.473, "y": 0.0, "z": -0.091 }
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe37c2d5691435",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
 		"cafe31075d677b59": {
 			"parent": "4d661fa986a84d18",
 			"name": "Shotguns",
@@ -2549,13 +2874,17 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe8c32a204703c"]
+					"value": ["cafe8c32a204703c", "cafe8d846b70acd2"]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 90, "z": 0 },
-						"position": { "x": 0.6, "y": 0, "z": -0.6 }
+						"rotation": {
+							"x": 0.0,
+							"y": 89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.6, "y": 0.0, "z": -0.6 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2572,15 +2901,50 @@
 		},
 		"cafe8c32a204703c": {
 			"parent": "cafe31075d677b59",
-			"name": "Bartoli Gold",
-			"factory": "000FD1BCA04039A3",
-			"blueprint": "009C3FA7A7ED9A63",
+			"name": "ICA White Tactical",
+			"factory": "00030630A0BA93AB",
+			"blueprint": "005365B54D1016D6",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -90.0, "y": 90.0, "z": -180.0 },
-						"position": { "x": 1.0, "y": 0, "z": -0.2 }
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 1.0, "y": 0.0, "z": -0.2 }
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe31075d677b59",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe8d846b70acd2": {
+			"parent": "cafe31075d677b59",
+			"name": "enrham hv covert",
+			"factory": "00792FA08BC453F5",
+			"blueprint": "00754F0D6F0B1717",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 1.0, "y": 0.0, "z": -0.2 }
 					}
 				},
 				"Supplier": { "type": "bool", "value": true },
@@ -2599,20 +2963,20 @@
 		},
 		"cafe6886708c8622": {
 			"parent": "cafe064fdf2a3a96",
-			"name": "jaeger tutara",
-			"factory": "00325FC1C380EA78",
-			"blueprint": "0010D435519D4D2A",
+			"name": "Epic Viper 300",
+			"factory": "00DA726575CB348F",
+			"blueprint": "002DE0D5C6913C60",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -90,
-							"z": 179.97610766103642
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
 						},
-						"position": { "x": -0.072, "y": 0, "z": -0.48 }
+						"position": { "x": -0.072, "y": 0.0, "z": -0.48 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2640,13 +3004,22 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe6886708c8622", "cafe2e3beb88a776", "cafe48b9564b716e"]
+					"value": [
+						"cafe529b2f9a31c0",
+						"cafe6886708c8622",
+						"cafeb5da199d86fb",
+						"cafe48b9564b716e"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0.25, "y": 0, "z": -0.77 }
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2661,6 +3034,136 @@
 				}
 			}
 		},
+		"cafe529b2f9a31c0": {
+			"parent": "cafe064fdf2a3a96",
+			"name": "Epic Advanded 300",
+			"factory": "00C631164BC68FE7",
+			"blueprint": "00DC27D98D2DD616",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": -0.072, "y": 0.0, "z": -0.48 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe064fdf2a3a96",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeff1fc4212bff": {
+			"parent": "4d661fa986a84d18",
+			"name": "SMGs",
+			"factory": "0065C766B156793F",
+			"blueprint": "0013B44A023B3A0B",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe37aedf3f9f54", "cafec62d7d216474"]
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_Seed": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe37aedf3f9f54": {
+			"parent": "cafeff1fc4212bff",
+			"name": "Epic Dax X2 Covert Special",
+			"factory": "0025F2686B9DA164",
+			"blueprint": "00A442780A95C42B",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.672, "y": 0.0, "z": -0.55 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeff1fc4212bff",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafec62d7d216474": {
+			"parent": "cafeff1fc4212bff",
+			"name": "Epic ICA Raptor",
+			"factory": "00F28A0D8E814A6E",
+			"blueprint": "0038CEC94E7D755D",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.672, "y": 0.0, "z": -0.55 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafeff1fc4212bff",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
 		"cafefcc6ca80c34c": {
 			"parent": "4d661fa986a84d18",
 			"name": "Pistols",
@@ -2673,13 +3176,26 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe96c7a7121712", "cafebb6cdc089a89", "cafeb5cf64f8c3d2"]
+					"value": [
+						"cafe96c7a7121712",
+						"cafee79dd642d05e",
+						"cafebb6cdc089a89",
+						"cafe8c14177e75cc",
+						"cafe437cf49b48e4",
+						"cafe97bbc9282e76",
+						"cafeb5cf64f8c3d2",
+						"cafe637ab57edb2f"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0.25, "y": 0, "z": -0.77 }
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2696,20 +3212,51 @@
 		},
 		"cafe96c7a7121712": {
 			"parent": "cafefcc6ca80c34c",
-			"name": "Shortballer",
-			"factory": "009840C542E58E29",
-			"blueprint": "0090FFC058C268E5",
+			"name": "ICA DTI",
+			"factory": "00335037EFB86EFF",
+			"blueprint": "008AE44C6102B915",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -0.0,
+							"x": -90.00000000000001,
+							"y": 0.0,
 							"z": 179.97610766103642
 						},
-						"position": { "x": -0.69, "y": 0, "z": -1.3 }
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefcc6ca80c34c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafee79dd642d05e": {
+			"parent": "cafefcc6ca80c34c",
+			"name": "El Matador",
+			"factory": "006C89F5F8BEB010",
+			"blueprint": "00BF4D6DA0F770D5",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2727,20 +3274,113 @@
 		},
 		"cafebb6cdc089a89": {
 			"parent": "cafefcc6ca80c34c",
-			"name": "silverballer",
-			"factory": "00A39887D07B8552",
-			"blueprint": "00CA3F4EF57925A0",
+			"name": "Kruger Gold",
+			"factory": "0011855311BD87E3",
+			"blueprint": "00B82B2ABC87100F",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -0.0,
+							"x": -90.00000000000001,
+							"y": 0.0,
 							"z": 179.97610766103642
 						},
-						"position": { "x": -0.69, "y": 0, "z": -1.3 }
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefcc6ca80c34c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe8c14177e75cc": {
+			"parent": "cafefcc6ca80c34c",
+			"name": "FA Ducky",
+			"factory": "00579BAC34C7C16F",
+			"blueprint": "0043F1C493A82538",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefcc6ca80c34c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe437cf49b48e4": {
+			"parent": "cafefcc6ca80c34c",
+			"name": "5mm DTI",
+			"factory": "00632046E9DA13DA",
+			"blueprint": "00CD54E8F8C9928B",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefcc6ca80c34c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe97bbc9282e76": {
+			"parent": "cafefcc6ca80c34c",
+			"name": "Black Lily",
+			"factory": "00590ADAAADD63AC",
+			"blueprint": "00B1D1B87B84F1B3",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 0.0,
+							"z": 179.97610766103642
+						},
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2768,13 +3408,26 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafe3267c0d0633c"]
+					"value": [
+						"cafebd4d490a930a",
+						"cafed57f8d4bad14",
+						"cafe9a8954d05ef6",
+						"cafe942c017e87b2",
+						"cafec45201e32694",
+						"cafe3fc57f5cd7ca",
+						"cafe3267c0d0633c",
+						"cafed4365bd8225b"
+					]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0.25, "y": 0, "z": -0.77 }
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
 					}
 				},
 				"m_bVisible": { "type": "bool", "value": true },
@@ -2789,18 +3442,235 @@
 				}
 			}
 		},
-		"cafe3267c0d0633c": {
+		"cafebd4d490a930a": {
 			"parent": "cafe5b2d8193f0a0",
-			"name": "devil duck",
-			"factory": "00EA5954402E90EE",
-			"blueprint": "00FC63B86A366C4A",
+			"name": "Epic Collector duck",
+			"factory": "003CEB8E69FFB8DC",
+			"blueprint": "006FD403E2D395FC",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -180.0, "y": -90.0, "z": 0 },
-						"position": { "x": 0.3, "y": 0, "z": -0.7 }
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafed57f8d4bad14": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic crowbar",
+			"factory": "00A27824672AF590",
+			"blueprint": "00A611E187A20A85",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": -90.0, "z": 0 },
+						"position": { "x": 0.3, "y": 0.0095, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe9a8954d05ef6": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic kalmer",
+			"factory": "00F590DF7C450F90",
+			"blueprint": "00143707ED3265AA",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe942c017e87b2": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "Epic Sieker",
+			"factory": "00646EA22B44F6B3",
+			"blueprint": "0046115B2377300B",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafec45201e32694": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic lockpick",
+			"factory": "00C1DA56B1266267",
+			"blueprint": "00BD01DD025C5823",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe3fc57f5cd7ca": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic classic duck",
+			"factory": "004B40E840A8AB67",
+			"blueprint": "0067923BCA55D2EA",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe3267c0d0633c": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic concussion duck",
+			"factory": "003CEB8E69FFB8DC",
+			"blueprint": "006FD403E2D395FC",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.7 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5b2d8193f0a0",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafed4365bd8225b": {
+			"parent": "cafe5b2d8193f0a0",
+			"name": "epic coin",
+			"factory": "0060CFC712A6A9F7",
+			"blueprint": "0052AD6626997917",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.1, "z": -0.7 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2818,20 +3688,20 @@
 		},
 		"cafeb5cf64f8c3d2": {
 			"parent": "cafefcc6ca80c34c",
-			"name": "goldballer",
-			"factory": "00536B3CEE543F21",
-			"blueprint": "00025675034AA8BF",
+			"name": "FA Stealth",
+			"factory": "00E0B8F75B2D2B4F",
+			"blueprint": "00CC072F1100A1B3",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -0.0,
+							"x": -90.00000000000001,
+							"y": 0.0,
 							"z": 179.97610766103642
 						},
-						"position": { "x": -0.69, "y": 0, "z": -1.3 }
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2847,22 +3717,53 @@
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"cafe2e3beb88a776": {
-			"parent": "cafe064fdf2a3a96",
-			"name": "ghost",
-			"factory": "0086CE09E5561ACC",
-			"blueprint": "00895C3C6D02E2C6",
+		"cafe637ab57edb2f": {
+			"parent": "cafefcc6ca80c34c",
+			"name": "ICA Chrome",
+			"factory": "00D3CFC57307D5EB",
+			"blueprint": "006F3EB384023BA8",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -90,
+							"x": -90.00000000000001,
+							"y": 0.0,
 							"z": 179.97610766103642
 						},
-						"position": { "x": -0.072, "y": 0, "z": -0.48 }
+						"position": { "x": -0.69, "y": 0.0, "z": -1.3 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafefcc6ca80c34c",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeb5da199d86fb": {
+			"parent": "cafe064fdf2a3a96",
+			"name": "epic artic",
+			"factory": "008F0922D5A74B37",
+			"blueprint": "00CA49469CFDD000",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": -0.072, "y": 0.0, "z": -0.48 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2880,20 +3781,20 @@
 		},
 		"cafe48b9564b716e": {
 			"parent": "cafe064fdf2a3a96",
-			"name": "leviathan",
-			"factory": "003B7BE0981D649D",
-			"blueprint": "001C7CF8C06E1BDA",
+			"name": "epic bartoli ica",
+			"factory": "00FFABEDF07A3490",
+			"blueprint": "001EBF6D232EEF52",
 			"properties": {
 				"Supplier": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": -90.0,
-							"y": -90,
-							"z": 179.97610766103642
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
 						},
-						"position": { "x": -0.072, "y": 0, "z": -0.48 }
+						"position": { "x": -0.072, "y": 0.0, "z": -0.48 }
 					}
 				},
 				"m_bVisibleInBoxReflection": {
@@ -2909,8 +3810,469 @@
 			},
 			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		},
-		"cafef22b9c2ac9ba": {
-			"parent": "cafedbf5f070468e",
+		"cafe7e7718234fa9": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "eppic france knife",
+			"factory": "00CDB489F83CB3CB",
+			"blueprint": "00A849A354C7F3FC",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe6cb8ed9064fd": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "epic ice axe",
+			"factory": "0009103DD5A087B2",
+			"blueprint": "003E94980A66FE1E",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe276fe7117935": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "epic bat shuriken",
+			"factory": "008C2853A2269117",
+			"blueprint": "0041F9BD0312B473",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": -7.014924558677099e-15,
+							"z": -0.023892338963570372
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeffc43a45fd71": {
+			"parent": "d7fdd9142b0d3725",
+			"name": "epic burial dagger",
+			"factory": "00269799D573916C",
+			"blueprint": "001B605CB32A0555",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": {
+							"x": -0.09999999932944774,
+							"y": 0.0,
+							"z": -0.08
+						}
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "d7fdd9142b0d3725",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe255f49b0c344": {
+			"parent": "cafe5d9dd01ce6f5",
+			"name": "Spooky Bat",
+			"factory": "0089B5FFB8ACE531",
+			"blueprint": "00408277A02589D3",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.02389233896362,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": -1.2, "y": 0.0, "z": -0.6 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe5d9dd01ce6f5",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafee9a4c37667b6": {
+			"parent": "4d661fa986a84d18",
+			"name": "Tools 2",
+			"factory": "0065C766B156793F",
+			"blueprint": "0013B44A023B3A0B",
+			"properties": {
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_Choices": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe6e951a2902dc",
+						"cafeb3c3448155a0",
+						"cafe1f798a914b5f",
+						"cafef84627c37613",
+						"cafe63f691d9939b",
+						"cafeb719e4be1a28",
+						"cafe4c04e74a62b2",
+						"cafe7bf181858c77"
+					]
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.25, "y": 0.0, "z": -0.77 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_Seed": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22edf43d9609168f",
+					"postInit": true
+				}
+			}
+		},
+		"cafe6e951a2902dc": {
+			"parent": "cafee9a4c37667b6",
+			"name": "Epic Collector duck",
+			"factory": "003CEB8E69FFB8DC",
+			"blueprint": "006FD403E2D395FC",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeb3c3448155a0": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic crowbar",
+			"factory": "00A27824672AF590",
+			"blueprint": "00A611E187A20A85",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -90.0, "y": -90.0, "z": 0 },
+						"position": { "x": 0.3, "y": 0.0095, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe1f798a914b5f": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic kalmer",
+			"factory": "00F590DF7C450F90",
+			"blueprint": "00143707ED3265AA",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafef84627c37613": {
+			"parent": "cafee9a4c37667b6",
+			"name": "Epic Sieker",
+			"factory": "00646EA22B44F6B3",
+			"blueprint": "0046115B2377300B",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe63f691d9939b": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic lockpick",
+			"factory": "00C1DA56B1266267",
+			"blueprint": "00BD01DD025C5823",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000001,
+							"y": 0.0,
+							"z": -0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafeb719e4be1a28": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic classic duck",
+			"factory": "004B40E840A8AB67",
+			"blueprint": "0067923BCA55D2EA",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe4c04e74a62b2": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic concussion duck",
+			"factory": "003CEB8E69FFB8DC",
+			"blueprint": "006FD403E2D395FC",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180.0,
+							"y": -89.99999879258172,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.0, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe7bf181858c77": {
+			"parent": "cafee9a4c37667b6",
+			"name": "epic coin",
+			"factory": "0060CFC712A6A9F7",
+			"blueprint": "0052AD6626997917",
+			"properties": {
+				"Supplier": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": -89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.3, "y": 0.1, "z": -0.25 }
+					}
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafee9a4c37667b6",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
+		},
+		"cafe99db53753adb": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light 2",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -2972,7 +4334,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_fWrappedDiffuse": { "type": "float32", "value": 0 },
 				"m_vNearAttenuation": {
@@ -2993,14 +4355,14 @@
 				}
 			}
 		},
-		"cafedbf5f070468e": {
+		"cafe9e7d4791bfba": {
 			"parent": "5c4c4149b57c62b5",
 			"name": "Lighting",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"cafe5055e270f73e": {
-			"parent": "cafedbf5f070468e",
+		"cafe11702ebe1570": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "fog_sphere_4x4m_a_03",
 			"factory": "008D62FB75003F53",
 			"blueprint": "00FF0199ED327977",
@@ -3022,14 +4384,14 @@
 				},
 				"ConstantVector1D_09_Value": {
 					"type": "float32",
-					"value": 200
+					"value": 100
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 2.798389971256256,
-						"y": 2.0396000146865845,
-						"z": 2.0556656010448933
+						"x": 0.7983899712562561,
+						"y": 1.0396000146865845,
+						"z": 0.055665601044893265
 					}
 				},
 				"ConstantVector1D_02_Value": {
@@ -3038,7 +4400,7 @@
 				},
 				"ConstantColorRGB_01_Value": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#5400c2"
 				},
 				"ConstantVector1D_10_Value": {
 					"type": "float32",
@@ -3046,7 +4408,7 @@
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
-					"value": 2.7799999713897705
+					"value": 1.7799999713897705
 				},
 				"ColorSaturation_01_Saturation": {
 					"type": "float32",
@@ -3054,7 +4416,7 @@
 				},
 				"ConstantVector1D_12_Value": {
 					"type": "float32",
-					"value": 1.8299999833106997
+					"value": 0.8299999833106995
 				},
 				"SoftDepth_01_RcpFadeTreshold": {
 					"type": "float32",
@@ -3066,8 +4428,8 @@
 				}
 			}
 		},
-		"cafe0bf74ba02023": {
-			"parent": "cafedbf5f070468e",
+		"cafe1a57ef54473a": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -3132,7 +4494,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_vNearAttenuation": {
 					"type": "SVector2",
@@ -3162,8 +4524,8 @@
 				}
 			}
 		},
-		"cafe8fa67d997153": {
-			"parent": "cafedbf5f070468e",
+		"cafe2c9f660216a0": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light Left",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -3183,7 +4545,7 @@
 						}
 					}
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 350 },
+				"m_fDiffusePower": { "type": "float32", "value": 670 },
 				"m_bCastShadows": { "type": "bool", "value": false },
 				"m_eLightType": {
 					"type": "ILightEntity.ELightType",
@@ -3228,7 +4590,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_vNearAttenuation": {
 					"type": "SVector2",
@@ -3258,8 +4620,8 @@
 				}
 			}
 		},
-		"cafed6965c1a1b93": {
-			"parent": "cafedbf5f070468e",
+		"cafe6c9a806bc63a": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light Right",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -3279,7 +4641,7 @@
 						}
 					}
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 350 },
+				"m_fDiffusePower": { "type": "float32", "value": 670 },
 				"m_bCastShadows": { "type": "bool", "value": false },
 				"m_eLightType": {
 					"type": "ILightEntity.ELightType",
@@ -3324,7 +4686,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_vNearAttenuation": {
 					"type": "SVector2",
@@ -3354,8 +4716,8 @@
 				}
 			}
 		},
-		"cafe5b0a920ef2a5": {
-			"parent": "cafedbf5f070468e",
+		"cafe3acff1e7192e": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light Left 2",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -3375,7 +4737,7 @@
 						}
 					}
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 350 },
+				"m_fDiffusePower": { "type": "float32", "value": 670 },
 				"m_bCastShadows": { "type": "bool", "value": false },
 				"m_eLightType": {
 					"type": "ILightEntity.ELightType",
@@ -3420,7 +4782,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_vNearAttenuation": {
 					"type": "SVector2",
@@ -3450,8 +4812,8 @@
 				}
 			}
 		},
-		"cafebaf60dc03c27": {
-			"parent": "cafedbf5f070468e",
+		"cafe9ad1d19acefc": {
+			"parent": "cafe9e7d4791bfba",
 			"name": "Light Right 2",
 			"factory": "[modules:/zlightentity.class].pc_entitytype",
 			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
@@ -3471,7 +4833,7 @@
 						}
 					}
 				},
-				"m_fDiffusePower": { "type": "float32", "value": 350 },
+				"m_fDiffusePower": { "type": "float32", "value": 1250 },
 				"m_bCastShadows": { "type": "bool", "value": false },
 				"m_eLightType": {
 					"type": "ILightEntity.ELightType",
@@ -3516,7 +4878,7 @@
 				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
-					"value": "#ff6803"
+					"value": "#b780ff"
 				},
 				"m_vNearAttenuation": {
 					"type": "SVector2",
@@ -3545,6 +4907,37 @@
 					"value": "5c4c4149b57c62b5"
 				}
 			}
+		},
+		"cafe53e0fb76b78f": {
+			"parent": "cafe37c2d5691435",
+			"name": "Tac 4 Desert",
+			"factory": "0014DD4846F35A81",
+			"blueprint": "00E006323C6FED05",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90.00000000000003,
+							"y": 89.9999982924527,
+							"z": 0.0
+						},
+						"position": { "x": 0.473, "y": 0.0, "z": -0.091 }
+					}
+				},
+				"Supplier": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe37c2d5691435",
+					"postInit": true
+				}
+			},
+			"subsets": { "AudioEmitters": ["22edf43d9609168f"] }
 		}
 	},
 	"propertyOverrides": [],

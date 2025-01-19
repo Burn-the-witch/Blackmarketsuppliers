@@ -1,0 +1,79 @@
+{
+	"tempHash": "00BF5EBC6C11C353",
+	"tbluHash": "00FA6AF886326746",
+	"rootEntity": "6e503dd879bd2a69",
+	"entities": {
+		"011e6eacea4c56a4": {
+			"parent": "6e503dd879bd2a69",
+			"name": "OpenMenuPageEntity",
+			"factory": "[modules:/zopenmenupageentity.class].pc_entitytype",
+			"blueprint": "[modules:/zopenmenupageentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eMenu": {
+					"type": "EGameUIMenu",
+					"value": "eUIMenu_PauseMenu"
+				},
+				"m_sPageName": { "type": "ZString", "value": "pause" }
+			}
+		},
+		"071702ae2edf58e2": {
+			"parent": "6e503dd879bd2a69",
+			"name": "SignalFork_Void",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": { "SetContext": ["b40e7fd5fae0f278"] },
+				"Out02": { "Open": ["011e6eacea4c56a4"] }
+			}
+		},
+		"6e503dd879bd2a69": {
+			"parent": null,
+			"name": "Tutorial_OpenVRComfortMenuSetting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"inputCopying": { "In": { "In": ["071702ae2edf58e2"] } },
+			"propertyAliases": {
+				"m_sStringValue": [
+					{
+						"originalProperty": "m_sStringValue",
+						"originalEntity": "aebd0f57be3765cd"
+					}
+				]
+			}
+		},
+		"aebd0f57be3765cd": {
+			"parent": "6e503dd879bd2a69",
+			"name": "DynamicObject",
+			"factory": "[modules:/zdynamicobjectentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdynamicobjectentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sStringValue": {
+					"type": "ZString",
+					"value": "{\r\n\t\"uicontext\": {\r\n\t  \"onpageopened\": [\r\n\t\t{\r\n\t\t\t\"loadout\": {\r\n\t\t\t\t\"mode\": \"equip\",\r\n\t\t\t\t\"slotid\": \"3\",\r\n\t\t\t\t\"instance\": {\r\n\t\t\"InstanceId\": \"00000000-0000-0000-0000-000000000000\",\r\n\t\t\"ProfileId\": \"00000000-0000-0000-0000-000000000000\",\r\n\t\t\"Unlockable\": {\r\n\t\t\"Properties\": {\r\n\t\t\t\"Quality\": 1,\r\n\t\t\t\"Rarity\": \"common\",\r\n\t\t\t\"LoadoutSlot\": \"disguise\",\r\n\t\t\t\"RepositoryId\": \"644d6178-8b1c-4c9b-90e6-6bc0d85d084f\",\r\n\t\t\t\"OrderIndex\": 917,\r\n\t\t\t\"AllowUpSync\": true\r\n\t\t},\r\n\t\t\"Rarity\": \"common\",\r\n\t\t\"DisplayNameLocKey\": \"UI_TOKEN_OUTFIT_TOMORROWLAND_SUIT_REWARD_NAME\",\r\n\t\t\"Id\": \"TOKEN_OUTFIT_HERO_REDSPECIAL_SUIT\",\r\n\t\t\"Type\": \"disguise\",\r\n\t\t\"Subtype\": \"themed\",\r\n\t\t\"GameAsset\": null,\r\n\t\t\"ImageId\": \"\",\r\n\t\t\"RMTPrice\": 99,\r\n\t\t\"GamePrice\": 99,\r\n\t\t\"IsPurchasable\": false,\r\n\t\t\"IsPublished\": true,\r\n\t\t\"IsDroppable\": false,\r\n\t\t\"Capabilities\": [],\r\n\t\t\"Qualities\": {},\r\n\t\t\"Guid\": \"fb7f5b5e-ee26-4bb3-bf7d-3f854220d8cf\"\r\n\t\t},\r\n\t\t\"Properties\": {}\r\n\t\t}\r\n\t\t\t},\r\n\t\t\t\"set-default-loadout\": {\r\n\t\t\t\t\"locationid\": \"{$currentcontractcontext}.ContractLocation\"\r\n\t\t\t},\r\n\t\t\t\"fire-page-pin\": {\r\n\t\t\t\t\"name\": \"ChangeOutfit\",\r\n\t\t\t\t\"data\": \"5edcef70-c4bb-4856-9124-de3d39fa814a\"\r\n\t\t\t}\r\n\t\t},\r\n\t\t{\"replace-children\": {\r\n                                        \"target\": \"headline_container\",\r\n                                        \"children\": [\r\n                                            {\r\n                                                \"view\": \"menu3.basic.HeadlineElement\",\r\n                                                \"selectable\": false,\r\n                                                \"pressable\": false,\r\n                                                \"data\": {\r\n                                                    \"header\": \"$loc BLACKMARKET_DISGUISE_PURCHASED_HEADER\",\r\n                                                    \"title\": \"$loc BLACKMARKET_DISGUISE_PURCHASED_TITLE\",\r\n                                                    \"typeicon\": \"disguise\"\r\n                                                }\r\n                                            }\r\n                                        ]\r\n                                    }}\r\n\t  ]\r\n\t}\r\n  }\r\n"
+				}
+			}
+		},
+		"b40e7fd5fae0f278": {
+			"parent": "6e503dd879bd2a69",
+			"name": "MenuContextControl",
+			"factory": "[modules:/zmenucontextcontrol.class].pc_entitytype",
+			"blueprint": "[modules:/zmenucontextcontrol.class].pc_entityblueprint",
+			"properties": {
+				"m_pDataProvider": {
+					"type": "SEntityTemplateReference",
+					"value": "aebd0f57be3765cd"
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
