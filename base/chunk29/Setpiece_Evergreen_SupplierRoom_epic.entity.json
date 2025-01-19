@@ -2736,11 +2736,7 @@
 				},
 				"m_Choices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafeee11e6e4d32e",
-						"cafea77430b62696",
-						"cafe53e0fb76b78f"
-					]
+					"value": ["cafeee11e6e4d32e", "cafea77430b62696", "cafe53e0fb76b78f"]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
