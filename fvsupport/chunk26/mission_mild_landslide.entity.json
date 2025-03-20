@@ -1333,11 +1333,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3bc9b37dfa1c321e",
-						"3e8be5d8f739a153",
-						"b77d3d09f4462f74"
-					],
+					"value": ["3bc9b37dfa1c321e", "3e8be5d8f739a153", "b77d3d09f4462f74"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2273,12 +2269,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"73251b455bff6b73",
-						"54f751ea526b6c15",
-						"b2bd95eda08246eb",
-						"fa561ebfa71917a5"
-					],
+					"value": ["73251b455bff6b73", "54f751ea526b6c15", "b2bd95eda08246eb", "fa561ebfa71917a5"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2871,11 +2862,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6b223324da93232f",
-						"054a7776bd9de597",
-						"57a68ea2449c3bde"
-					],
+					"value": ["6b223324da93232f", "054a7776bd9de597", "57a68ea2449c3bde"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -3559,11 +3546,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"57a68ea2449c3bde",
-						"054a7776bd9de597",
-						"6b223324da93232f"
-					],
+					"value": ["57a68ea2449c3bde", "054a7776bd9de597", "6b223324da93232f"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -3754,11 +3737,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4cef537165ebddb5",
-						"a0049d142c6b437c",
-						"61ed8748833f3f5d"
-					],
+					"value": ["4cef537165ebddb5", "a0049d142c6b437c", "61ed8748833f3f5d"],
 					"postInit": true
 				},
 				"m_eidParent": {

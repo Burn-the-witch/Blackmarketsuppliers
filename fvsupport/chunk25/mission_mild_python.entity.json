@@ -4569,11 +4569,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"38a3c0cd7ef8ea36",
-						"cf52e08af0ab3ce7",
-						"683f8813af8ed0a1"
-					],
+					"value": ["38a3c0cd7ef8ea36", "cf52e08af0ab3ce7", "683f8813af8ed0a1"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4647,12 +4643,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9a87aff407b388f0",
-						"e861637488411833",
-						"a649fb54b70f0a3f",
-						"b0847e2975175f11"
-					],
+					"value": ["9a87aff407b388f0", "e861637488411833", "a649fb54b70f0a3f", "b0847e2975175f11"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5466,12 +5457,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d6e057ebd9efbac3",
-						"2401a6efd65b07dd",
-						"db9a03aa99255ef2",
-						"54ed7e046f1e026c"
-					],
+					"value": ["d6e057ebd9efbac3", "2401a6efd65b07dd", "db9a03aa99255ef2", "54ed7e046f1e026c"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -6005,12 +5991,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"aaf5a751488e63a8",
-						"719dc0e3c6a37d18",
-						"c695e590711d74fc",
-						"8546e59ff692e8f6"
-					],
+					"value": ["aaf5a751488e63a8", "719dc0e3c6a37d18", "c695e590711d74fc", "8546e59ff692e8f6"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -6547,12 +6528,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ffda6c60b1a1c84",
-						"f2c02f26abbdd241",
-						"8796f45c9d8d4138",
-						"536e5ba748a64380"
-					],
+					"value": ["5ffda6c60b1a1c84", "f2c02f26abbdd241", "8796f45c9d8d4138", "536e5ba748a64380"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -7420,12 +7396,7 @@
 				"m_bAlignPosition": { "type": "bool", "value": true },
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f8ebfe709e404500",
-						"c302ab990218a46c",
-						"e2ef54cbf4030406",
-						"dc06427a96cabcd8"
-					]
+					"value": ["f8ebfe709e404500", "c302ab990218a46c", "e2ef54cbf4030406", "dc06427a96cabcd8"]
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",

@@ -6,10 +6,7 @@
 			"SubEntityOperation": [
 				"0b06db78db4f95f4",
 				{
-					"AddProperty": [
-						"m_SaveOnChange",
-						{ "type": "bool", "value": false }
-					]
+					"AddProperty": ["m_SaveOnChange", { "type": "bool", "value": false }]
 				}
 			]
 		},

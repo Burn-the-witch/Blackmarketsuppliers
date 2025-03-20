@@ -12217,11 +12217,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7ea40f983932c574",
-						"184acaa83aef8577",
-						"02269e07c85b92c6"
-					],
+					"value": ["7ea40f983932c574", "184acaa83aef8577", "02269e07c85b92c6"],
 					"postInit": true
 				}
 			}
@@ -14664,11 +14660,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"3f5fea96945580ec",
-						"0ac2fbbbfa067cf0",
-						"a236d9c2985a73f1"
-					],
+					"value": ["3f5fea96945580ec", "0ac2fbbbfa067cf0", "a236d9c2985a73f1"],
 					"postInit": true
 				},
 				"m_rSuspectHandler": {
@@ -16989,11 +16981,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a8da3ce22c019a07",
-						"d9da6fc7c80e385e",
-						"77ebf72bcb57c2fd"
-					],
+					"value": ["a8da3ce22c019a07", "d9da6fc7c80e385e", "77ebf72bcb57c2fd"],
 					"postInit": true
 				}
 			}
@@ -17416,11 +17404,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"73ec4bd32dbf646b",
-						"0ba019cf8a73f5ab",
-						"2315e6e2bdcd2469"
-					]
+					"value": ["73ec4bd32dbf646b", "0ba019cf8a73f5ab", "2315e6e2bdcd2469"]
 				}
 			}
 		},
@@ -22966,11 +22950,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9722c76ae39db1be",
-						"82a046b06c0aa0bf",
-						"966a8d37418db950"
-					]
+					"value": ["9722c76ae39db1be", "82a046b06c0aa0bf", "966a8d37418db950"]
 				}
 			}
 		},
@@ -27272,11 +27252,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"483e495475319dd0",
-						"c1c41057c9cbd303",
-						"521eec932d365e0f"
-					],
+					"value": ["483e495475319dd0", "c1c41057c9cbd303", "521eec932d365e0f"],
 					"postInit": true
 				}
 			}

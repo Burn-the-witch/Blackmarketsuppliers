@@ -1249,9 +1249,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1290,9 +1288,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1332,9 +1328,7 @@
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": [
-					"fffffffffffffffe"
-				],
+				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -1874,14 +1868,12 @@
 						"data": [
 							[0, 1, 0, 0, 0, 0, 0, 1],
 							[
-								0.13976240158081055, 1, 0, 0,
-								0.21460182964801788, -0.7146018147468567,
+								0.13976240158081055, 1, 0, 0, 0.21460182964801788, -0.7146018147468567,
 								-4.8090179775077144e-17, 1
 							],
 							[
-								0.5698812007904053, 0.5, 0, 0,
-								0.21460182964801788, 0.07079632580280304,
-								-0.7853981852531433, 0.5
+								0.5698812007904053, 0.5, 0, 0, 0.21460182964801788, 0.07079632580280304, -0.7853981852531433,
+								0.5
 							],
 							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
@@ -2501,14 +2493,12 @@
 						"data": [
 							[0, 1, 0, 0, 0, 0, 0, 1],
 							[
-								0.13976240158081055, 1, 0, 0,
-								0.21460182964801788, -0.7146018147468567,
+								0.13976240158081055, 1, 0, 0, 0.21460182964801788, -0.7146018147468567,
 								-4.8090179775077144e-17, 1
 							],
 							[
-								0.5698812007904053, 0.5, 0, 0,
-								0.21460182964801788, 0.07079632580280304,
-								-0.7853981852531433, 0.5
+								0.5698812007904053, 0.5, 0, 0, 0.21460182964801788, 0.07079632580280304, -0.7853981852531433,
+								0.5
 							],
 							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
@@ -3337,12 +3327,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafedf4a8844f6fe",
-						"cafe22e3905e42ec",
-						"cafe5385c0855f49",
-						"cafe8863552f500f"
-					],
+					"value": ["cafedf4a8844f6fe", "cafe22e3905e42ec", "cafe5385c0855f49", "cafe8863552f500f"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
@@ -3682,12 +3667,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe0058b40fbbcd",
-						"cafe79393807df5d",
-						"cafec9407bf5d4ba",
-						"cafe966212e1e87c"
-					],
+					"value": ["cafe0058b40fbbcd", "cafe79393807df5d", "cafec9407bf5d4ba", "cafe966212e1e87c"],
 					"postInit": true
 				},
 				"m_AvailableGrenadeKeys": {
@@ -3994,11 +3974,7 @@
 				"m_bWeaponsAllowed": { "type": "bool", "value": true },
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef198ec1c6189",
-						"cafed57e1f5c6fd9",
-						"cafe589ce47ddd24"
-					],
+					"value": ["cafef198ec1c6189", "cafed57e1f5c6fd9", "cafe589ce47ddd24"],
 					"postInit": true
 				}
 			}
@@ -4226,12 +4202,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafee34ee2aff2bf",
-						"cafe49b8f7277fdd",
-						"cafe76701824d903",
-						"cafede02a0be6c2e"
-					],
+					"value": ["cafee34ee2aff2bf", "cafe49b8f7277fdd", "cafe76701824d903", "cafede02a0be6c2e"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
@@ -4571,12 +4542,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef04030ff5f5f",
-						"cafe4b89e40ef5c6",
-						"cafe800c459c9672",
-						"cafe5049690fb53b"
-					],
+					"value": ["cafef04030ff5f5f", "cafe4b89e40ef5c6", "cafe800c459c9672", "cafe5049690fb53b"],
 					"postInit": true
 				},
 				"m_AvailableGrenadeKeys": {
@@ -4883,11 +4849,7 @@
 				"m_bWeaponsAllowed": { "type": "bool", "value": true },
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef0445d2bda34",
-						"cafecf1792ca45c0",
-						"cafe14a560f347f5"
-					],
+					"value": ["cafef0445d2bda34", "cafecf1792ca45c0", "cafe14a560f347f5"],
 					"postInit": true
 				}
 			}
@@ -6213,11 +6175,7 @@
 			"properties": {
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_THUGES01",
-						"eAVV_THUGES02",
-						"eAVV_THUGES03"
-					]
+					"value": ["eAVV_THUGES01", "eAVV_THUGES02", "eAVV_THUGES03"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",

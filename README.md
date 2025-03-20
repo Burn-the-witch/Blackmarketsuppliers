@@ -6,4 +6,4 @@ Adds Black Market Supplier Shops to the safehouse that can be unlocked via ranki
 
 ---
 
-`Burnthewitch.BlackMarket` v2.0.2, by Burn, the witch. This README was automatically generated from the mod's manifest.
+`Burnthewitch.BlackMarket` v3.0.0, by Burn, the witch. This README was automatically generated from the mod's manifest.

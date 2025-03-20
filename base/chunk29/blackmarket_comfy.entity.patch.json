@@ -78,11 +78,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -90,11 +86,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -102,11 +94,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -114,11 +102,7 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"9119218a7f64342e"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "9119218a7f64342e"]
 				}
 			]
 		},
@@ -126,11 +110,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -138,11 +118,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -150,11 +126,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -162,11 +134,7 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"28d46047d7b84ef6"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "28d46047d7b84ef6"]
 				}
 			]
 		},
@@ -196,11 +164,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnLeaving",
-						"Poll",
-						"cafe608c47c6d23e"
-					]
+					"AddEventConnection": ["OnLeaving", "Poll", "cafe608c47c6d23e"]
 				}
 			]
 		},
@@ -208,11 +172,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnLeaving",
-						"Poll",
-						"cafeb17e810975a2"
-					]
+					"AddEventConnection": ["OnLeaving", "Poll", "cafeb17e810975a2"]
 				}
 			]
 		},
@@ -220,11 +180,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnLeaving",
-						"Poll",
-						"cafe29a76433f244"
-					]
+					"AddEventConnection": ["OnLeaving", "Poll", "cafe29a76433f244"]
 				}
 			]
 		},
@@ -232,11 +188,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnLeaving",
-						"Poll",
-						"cafef802b28d4cec"
-					]
+					"AddEventConnection": ["OnLeaving", "Poll", "cafef802b28d4cec"]
 				}
 			]
 		},
@@ -244,11 +196,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnEntering",
-						"Poll",
-						"cafe608c47c6d23e"
-					]
+					"AddEventConnection": ["OnEntering", "Poll", "cafe608c47c6d23e"]
 				}
 			]
 		},
@@ -256,11 +204,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnEntering",
-						"Poll",
-						"cafeb17e810975a2"
-					]
+					"AddEventConnection": ["OnEntering", "Poll", "cafeb17e810975a2"]
 				}
 			]
 		},
@@ -268,11 +212,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnEntering",
-						"Poll",
-						"cafe29a76433f244"
-					]
+					"AddEventConnection": ["OnEntering", "Poll", "cafe29a76433f244"]
 				}
 			]
 		},
@@ -280,11 +220,7 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": [
-						"OnEntering",
-						"Poll",
-						"cafef802b28d4cec"
-					]
+					"AddEventConnection": ["OnEntering", "Poll", "cafef802b28d4cec"]
 				}
 			]
 		},
@@ -336,11 +272,7 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Poll",
-						"cafe608c47c6d23e"
-					]
+					"AddEventConnection": ["OnTrue", "Poll", "cafe608c47c6d23e"]
 				}
 			]
 		},
@@ -348,11 +280,7 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Poll",
-						"cafeb17e810975a2"
-					]
+					"AddEventConnection": ["OnTrue", "Poll", "cafeb17e810975a2"]
 				}
 			]
 		},
@@ -360,11 +288,7 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Poll",
-						"cafe29a76433f244"
-					]
+					"AddEventConnection": ["OnTrue", "Poll", "cafe29a76433f244"]
 				}
 			]
 		},
@@ -372,11 +296,7 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": [
-						"OnTrue",
-						"Poll",
-						"cafef802b28d4cec"
-					]
+					"AddEventConnection": ["OnTrue", "Poll", "cafef802b28d4cec"]
 				}
 			]
 		},
@@ -406,11 +326,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableHitmanCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -418,11 +334,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnTrue",
-						"EnableCameraCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -430,11 +342,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableHitmanCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -442,11 +350,7 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": [
-						"OnFalse",
-						"DisableCameraCollision",
-						"f89ab20918005fc5"
-					]
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "f89ab20918005fc5"]
 				}
 			]
 		},
@@ -4239,10 +4143,7 @@
 						"m_bIsOn": { "type": "bool", "value": false },
 						"VisibilityConditions": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe976e8094c31b",
-								"cafe6711088e78e8"
-							]
+							"value": ["cafe976e8094c31b", "cafe6711088e78e8"]
 						},
 						"OnActionAvaliability": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -4294,10 +4195,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"5297e7464fd2b95e",
-								"cafe976e8094c31b"
-							],
+							"value": ["5297e7464fd2b95e", "cafe976e8094c31b"],
 							"postInit": true
 						},
 						"m_bFireOnLevelStart": {
@@ -4934,10 +4832,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafedff22750ae45",
-								"cafe5acda76e2218"
-							],
+							"value": ["cafedff22750ae45", "cafe5acda76e2218"],
 							"postInit": true
 						}
 					},
@@ -5059,10 +4954,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafe507ec07eb6de",
-								"cafeda30aa65c960"
-							],
+							"value": ["cafe507ec07eb6de", "cafeda30aa65c960"],
 							"postInit": true
 						}
 					},
@@ -5257,10 +5149,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cafea341532c8189",
-								"cafec4c443ae3351"
-							],
+							"value": ["cafea341532c8189", "cafec4c443ae3351"],
 							"postInit": true
 						}
 					},
@@ -5685,10 +5574,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"3e693d12f79df89d",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["3e693d12f79df89d", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -6300,10 +6186,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"7e673a0df3717c25",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["7e673a0df3717c25", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -6845,10 +6728,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"c4d6ee2a7c0b1436",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["c4d6ee2a7c0b1436", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -7390,10 +7270,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"42a58ea8a90d5206",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["42a58ea8a90d5206", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -7935,10 +7812,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"19070927b8be3e0c",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["19070927b8be3e0c", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -8480,10 +8354,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"526fa66fe2f8d9a1",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["526fa66fe2f8d9a1", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -9125,10 +8996,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"7ebc57b289698b86",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["7ebc57b289698b86", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -9630,10 +9498,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"63053ecc86f9d732",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["63053ecc86f9d732", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -10246,10 +10111,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"dfab4be2404abc31",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["dfab4be2404abc31", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -10839,10 +10701,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"54084e9b741e8f5b",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["54084e9b741e8f5b", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -11409,10 +11268,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"a0e314d8ab77a898",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["a0e314d8ab77a898", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -12025,10 +11881,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"298378803e19d24f",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["298378803e19d24f", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -12618,10 +12471,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"cbdcd61b9f3aecc6",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["cbdcd61b9f3aecc6", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -13211,10 +13061,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"749fbe32e7cc40e3",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["749fbe32e7cc40e3", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -13804,10 +13651,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"a7eb55c4b1a093ba",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["a7eb55c4b1a093ba", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -14397,10 +14241,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"362ee7ee11446e29",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["362ee7ee11446e29", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -14967,10 +14808,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"27f2bb552eec6fee",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["27f2bb552eec6fee", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -15583,10 +15421,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"95bb7fcd4056a90f",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["95bb7fcd4056a90f", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -16153,10 +15988,7 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": [
-								"05263ba537b9d150",
-								"cafe545a2efbe9c2"
-							],
+							"value": ["05263ba537b9d150", "cafe545a2efbe9c2"],
 							"postInit": true
 						}
 					},
@@ -16606,10 +16438,7 @@
 					"events": {
 						"Opened": {
 							"Hide": ["cafe24f7d400c80b"],
-							"Reset": [
-								"cafe348fbdf0d2e9",
-								"cafe24f7d400c80b"
-							]
+							"Reset": ["cafe348fbdf0d2e9", "cafe24f7d400c80b"]
 						}
 					}
 				}
@@ -16642,10 +16471,7 @@
 					"events": {
 						"Opened": {
 							"Hide": ["cafe348fbdf0d2e9"],
-							"Reset": [
-								"cafe348fbdf0d2e9",
-								"cafe24f7d400c80b"
-							]
+							"Reset": ["cafe348fbdf0d2e9", "cafe24f7d400c80b"]
 						}
 					}
 				}
