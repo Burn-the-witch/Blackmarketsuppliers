@@ -78,7 +78,11 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "9119218a7f64342e"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableHitmanCollision",
+						"9119218a7f64342e"
+					]
 				}
 			]
 		},
@@ -86,7 +90,11 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "9119218a7f64342e"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableCameraCollision",
+						"9119218a7f64342e"
+					]
 				}
 			]
 		},
@@ -94,7 +102,11 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "9119218a7f64342e"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableHitmanCollision",
+						"9119218a7f64342e"
+					]
 				}
 			]
 		},
@@ -102,7 +114,11 @@
 			"SubEntityOperation": [
 				"51011d9b072f7db3",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "9119218a7f64342e"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableCameraCollision",
+						"9119218a7f64342e"
+					]
 				}
 			]
 		},
@@ -110,7 +126,11 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "28d46047d7b84ef6"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableHitmanCollision",
+						"28d46047d7b84ef6"
+					]
 				}
 			]
 		},
@@ -118,7 +138,11 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "28d46047d7b84ef6"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableCameraCollision",
+						"28d46047d7b84ef6"
+					]
 				}
 			]
 		},
@@ -126,7 +150,11 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "28d46047d7b84ef6"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableHitmanCollision",
+						"28d46047d7b84ef6"
+					]
 				}
 			]
 		},
@@ -134,7 +162,11 @@
 			"SubEntityOperation": [
 				"9a2bf3aebdcba039",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "28d46047d7b84ef6"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableCameraCollision",
+						"28d46047d7b84ef6"
+					]
 				}
 			]
 		},
@@ -164,7 +196,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnLeaving", "Poll", "cafe608c47c6d23e"]
+					"AddEventConnection": [
+						"OnLeaving",
+						"Poll",
+						"cafe608c47c6d23e"
+					]
 				}
 			]
 		},
@@ -172,7 +208,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnLeaving", "Poll", "cafeb17e810975a2"]
+					"AddEventConnection": [
+						"OnLeaving",
+						"Poll",
+						"cafeb17e810975a2"
+					]
 				}
 			]
 		},
@@ -180,7 +220,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnLeaving", "Poll", "cafe29a76433f244"]
+					"AddEventConnection": [
+						"OnLeaving",
+						"Poll",
+						"cafe29a76433f244"
+					]
 				}
 			]
 		},
@@ -188,7 +232,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnLeaving", "Poll", "cafef802b28d4cec"]
+					"AddEventConnection": [
+						"OnLeaving",
+						"Poll",
+						"cafef802b28d4cec"
+					]
 				}
 			]
 		},
@@ -196,7 +244,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnEntering", "Poll", "cafe608c47c6d23e"]
+					"AddEventConnection": [
+						"OnEntering",
+						"Poll",
+						"cafe608c47c6d23e"
+					]
 				}
 			]
 		},
@@ -204,7 +256,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnEntering", "Poll", "cafeb17e810975a2"]
+					"AddEventConnection": [
+						"OnEntering",
+						"Poll",
+						"cafeb17e810975a2"
+					]
 				}
 			]
 		},
@@ -212,7 +268,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnEntering", "Poll", "cafe29a76433f244"]
+					"AddEventConnection": [
+						"OnEntering",
+						"Poll",
+						"cafe29a76433f244"
+					]
 				}
 			]
 		},
@@ -220,7 +280,11 @@
 			"SubEntityOperation": [
 				"f09f99df423d1aa1",
 				{
-					"AddEventConnection": ["OnEntering", "Poll", "cafef802b28d4cec"]
+					"AddEventConnection": [
+						"OnEntering",
+						"Poll",
+						"cafef802b28d4cec"
+					]
 				}
 			]
 		},
@@ -272,7 +336,11 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": ["OnTrue", "Poll", "cafe608c47c6d23e"]
+					"AddEventConnection": [
+						"OnTrue",
+						"Poll",
+						"cafe608c47c6d23e"
+					]
 				}
 			]
 		},
@@ -280,7 +348,11 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": ["OnTrue", "Poll", "cafeb17e810975a2"]
+					"AddEventConnection": [
+						"OnTrue",
+						"Poll",
+						"cafeb17e810975a2"
+					]
 				}
 			]
 		},
@@ -288,7 +360,11 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": ["OnTrue", "Poll", "cafe29a76433f244"]
+					"AddEventConnection": [
+						"OnTrue",
+						"Poll",
+						"cafe29a76433f244"
+					]
 				}
 			]
 		},
@@ -296,7 +372,11 @@
 			"SubEntityOperation": [
 				"49864e95a67affd8",
 				{
-					"AddEventConnection": ["OnTrue", "Poll", "cafef802b28d4cec"]
+					"AddEventConnection": [
+						"OnTrue",
+						"Poll",
+						"cafef802b28d4cec"
+					]
 				}
 			]
 		},
@@ -326,7 +406,11 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "f89ab20918005fc5"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableHitmanCollision",
+						"f89ab20918005fc5"
+					]
 				}
 			]
 		},
@@ -334,7 +418,11 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "f89ab20918005fc5"]
+					"RemoveEventConnection": [
+						"OnTrue",
+						"EnableCameraCollision",
+						"f89ab20918005fc5"
+					]
 				}
 			]
 		},
@@ -342,7 +430,11 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "f89ab20918005fc5"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableHitmanCollision",
+						"f89ab20918005fc5"
+					]
 				}
 			]
 		},
@@ -350,7 +442,11 @@
 			"SubEntityOperation": [
 				"c36839187f1b651e",
 				{
-					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "f89ab20918005fc5"]
+					"RemoveEventConnection": [
+						"OnFalse",
+						"DisableCameraCollision",
+						"f89ab20918005fc5"
+					]
 				}
 			]
 		},
@@ -723,11 +819,11 @@
 								"rotation": {
 									"x": -0.0,
 									"y": 0.0,
-									"z": 90.86752868978428
+									"z": 90.86752858637075
 								},
 								"position": {
 									"x": 23.395776748657227,
-									"y": -148.73133850097656,
+									"y": -143.4383544921875,
 									"z": -18.076866149902344
 								}
 							}
@@ -944,7 +1040,7 @@
 								},
 								"position": {
 									"x": 23.280807495117188,
-									"y": -148.72695922851565,
+									"y": -143.45205688476565,
 									"z": -18.1247501373291
 								}
 							}
@@ -1007,7 +1103,7 @@
 								},
 								"position": {
 									"x": 23.192134857177734,
-									"y": -148.73922729492188,
+									"y": -143.4605712890625,
 									"z": -18.11741065979004
 								}
 							}
@@ -4143,7 +4239,10 @@
 						"m_bIsOn": { "type": "bool", "value": false },
 						"VisibilityConditions": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe976e8094c31b", "cafe6711088e78e8"]
+							"value": [
+								"cafe976e8094c31b",
+								"cafe6711088e78e8"
+							]
 						},
 						"OnActionAvaliability": {
 							"type": "TArray<SEntityTemplateReference>",
@@ -4195,7 +4294,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["5297e7464fd2b95e", "cafe976e8094c31b"],
+							"value": [
+								"5297e7464fd2b95e",
+								"cafe976e8094c31b"
+							],
 							"postInit": true
 						},
 						"m_bFireOnLevelStart": {
@@ -4472,7 +4574,7 @@
 						"m_pMainEvent": {
 							"type": "ZRuntimeResourceID",
 							"value": {
-								"resource": "006678CFD995ADF4",
+								"resource": "00D0802E02D8FBA7",
 								"flag": "5F"
 							}
 						},
@@ -4832,7 +4934,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafedff22750ae45", "cafe5acda76e2218"],
+							"value": [
+								"cafedff22750ae45",
+								"cafe5acda76e2218"
+							],
 							"postInit": true
 						}
 					},
@@ -4888,7 +4993,7 @@
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_nValue": { "type": "int32", "value": 6000 }
+						"m_nValue": { "type": "int32", "value": 4000 }
 					}
 				}
 			]
@@ -4954,7 +5059,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe507ec07eb6de", "cafeda30aa65c960"],
+							"value": [
+								"cafe507ec07eb6de",
+								"cafeda30aa65c960"
+							],
 							"postInit": true
 						}
 					},
@@ -5106,7 +5214,7 @@
 					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_nValue": { "type": "int32", "value": 10000 }
+						"m_nValue": { "type": "int32", "value": 8000 }
 					}
 				}
 			]
@@ -5149,7 +5257,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafea341532c8189", "cafec4c443ae3351"],
+							"value": [
+								"cafea341532c8189",
+								"cafec4c443ae3351"
+							],
 							"postInit": true
 						}
 					},
@@ -5271,12 +5382,20 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": 4000
+										"value": 2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 0
 									}
 								}
 							],
 							"SetFalse": ["cafe9b576317c7ae"],
-							"In": ["cafe2181ac941a1e"]
+							"Show": ["cafe24f7d400c80b"],
+							"Send": ["cafef0e8319c8ced"]
 						}
 					}
 				}
@@ -5325,12 +5444,20 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": 10000
+										"value": 8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 0
 									}
 								}
 							],
 							"SetFalse": ["cafea9c8e22dde6a"],
-							"In": ["cafe2181ac941a1e"]
+							"Show": ["cafe24f7d400c80b"],
+							"Send": ["cafef0e8319c8ced"]
 						}
 					}
 				}
@@ -5357,12 +5484,20 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": 6000
+										"value": 4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 0
 									}
 								}
 							],
 							"SetFalse": ["cafe845b55a18515"],
-							"In": ["cafe2181ac941a1e"]
+							"Show": ["cafe24f7d400c80b"],
+							"Send": ["cafef0e8319c8ced"]
 						}
 					}
 				}
@@ -5389,12 +5524,20 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": 8000
+										"value": 6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 0
 									}
 								}
 							],
 							"SetFalse": ["cafe87a3e80b0993"],
-							"In": ["cafe2181ac941a1e"]
+							"Show": ["cafe24f7d400c80b"],
+							"Send": ["cafef0e8319c8ced"]
 						}
 					}
 				}
@@ -5499,11 +5642,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 21
 									}
 								}
 							],
-							"In": ["cafed1a3c1a4fe26"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -5535,7 +5685,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["3e693d12f79df89d", "cafe545a2efbe9c2"],
+							"value": [
+								"3e693d12f79df89d",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -5644,11 +5797,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 22
 									}
 								}
 							],
-							"In": ["cafe905e23d0b63a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -5725,11 +5885,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 23
 									}
 								}
 							],
-							"In": ["cafee027732ca4cf"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -5806,11 +5973,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 24
 									}
 								}
 							],
-							"In": ["cafef42374b64ed9"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6083,11 +6257,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 17
 									}
 								}
 							],
-							"In": ["cafefc01e35452d0"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6119,7 +6300,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["7e673a0df3717c25", "cafe545a2efbe9c2"],
+							"value": [
+								"7e673a0df3717c25",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -6228,11 +6412,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 18
 									}
 								}
 							],
-							"In": ["cafe1a55d2a32f2d"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6309,11 +6500,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 19
 									}
 								}
 							],
-							"In": ["cafe674eb21bd0da"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6390,11 +6588,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 20
 									}
 								}
 							],
-							"In": ["cafed72e3a5aaf63"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6597,11 +6802,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 13
 									}
 								}
 							],
-							"In": ["cafe0decb0fd9ec1"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6633,7 +6845,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["c4d6ee2a7c0b1436", "cafe545a2efbe9c2"],
+							"value": [
+								"c4d6ee2a7c0b1436",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -6742,11 +6957,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 14
 									}
 								}
 							],
-							"In": ["cafee0d58b481b08"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6823,11 +7045,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 15
 									}
 								}
 							],
-							"In": ["cafebe140ecc1746"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -6904,11 +7133,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 16
 									}
 								}
 							],
-							"In": ["cafea1890c8fe62b"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7111,11 +7347,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 9
 									}
 								}
 							],
-							"In": ["cafe6a6807b07cac"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7147,7 +7390,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["42a58ea8a90d5206", "cafe545a2efbe9c2"],
+							"value": [
+								"42a58ea8a90d5206",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -7256,11 +7502,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 10
 									}
 								}
 							],
-							"In": ["cafeb21ecfdaef8a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7337,11 +7590,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 11
 									}
 								}
 							],
-							"In": ["cafeaccd485c8962"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7418,11 +7678,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 12
 									}
 								}
 							],
-							"In": ["cafe7120dc9df9e1"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7625,11 +7892,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 5
 									}
 								}
 							],
-							"In": ["cafe198c3af4bb51"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7661,7 +7935,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["19070927b8be3e0c", "cafe545a2efbe9c2"],
+							"value": [
+								"19070927b8be3e0c",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -7770,11 +8047,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 6
 									}
 								}
 							],
-							"In": ["cafeb618e416684a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7851,11 +8135,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 7
 									}
 								}
 							],
-							"In": ["cafecebdb1972c5e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7932,11 +8223,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 8
 									}
 								}
 							],
-							"In": ["cafe72f377e7e0f9"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -7994,7 +8292,13 @@
 						},
 						"InputListeners_Lambic": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafe2936fd095021", "cafe1657fccbda9e", "cafef6bda4cac744"]
+							"value": [
+								"cafe2936fd095021",
+								"cafe1657fccbda9e",
+								"cafefa6bb49ec221",
+								"cafe959bb8276edd",
+								"cafef6bda4cac744"
+							]
 						}
 					},
 					"events": {
@@ -8133,11 +8437,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 1
 									}
 								}
 							],
-							"In": ["cafebd683409fc52"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -8169,7 +8480,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["526fa66fe2f8d9a1", "cafe545a2efbe9c2"],
+							"value": [
+								"526fa66fe2f8d9a1",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -8278,11 +8592,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 2
 									}
 								}
 							],
-							"In": ["cafe0f7fa5f7efe4"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -8323,7 +8644,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8333,7 +8654,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8371,7 +8692,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8381,7 +8702,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8419,7 +8740,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8429,7 +8750,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8467,7 +8788,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8477,7 +8798,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8526,7 +8847,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8536,7 +8857,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8574,7 +8895,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -8584,7 +8905,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -8639,7 +8960,13 @@
 						},
 						"InputListeners_Lambic": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cafea82a6e595b8e", "cafe1ebc53ce1aa4", "cafeddbd47fc65dc", "cafe6a14fef14b3e"]
+							"value": [
+								"cafea82a6e595b8e",
+								"cafe1ebc53ce1aa4",
+								"cafeddbd47fc65dc",
+								"cafe6a14fef14b3e",
+								"cafe45f30d589861"
+							]
 						}
 					},
 					"events": {
@@ -8755,11 +9082,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 25
 									}
 								}
 							],
-							"In": ["cafe23d610bb0054"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -8791,7 +9125,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["7ebc57b289698b86", "cafe545a2efbe9c2"],
+							"value": [
+								"7ebc57b289698b86",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -8900,11 +9237,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 26
 									}
 								}
 							],
-							"In": ["cafec8580a3be26f"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -8981,11 +9325,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 27
 									}
 								}
 							],
-							"In": ["cafeb8cbb19ca979"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9026,7 +9377,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -9036,7 +9387,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -9236,11 +9587,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 29
 									}
 								}
 							],
-							"In": ["cafede5c365b0625"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9272,7 +9630,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["63053ecc86f9d732", "cafe545a2efbe9c2"],
+							"value": [
+								"63053ecc86f9d732",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -9381,11 +9742,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 30
 									}
 								}
 							],
-							"In": ["cafecf08a974a0ae"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9462,11 +9830,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 31
 									}
 								}
 							],
-							"In": ["cafe9cb0936ba566"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9543,11 +9918,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 32
 									}
 								}
 							],
-							"In": ["cafe2d7e783e0e8e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9588,7 +9970,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -9598,7 +9980,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -9821,11 +10203,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 37
 									}
 								}
 							],
-							"In": ["cafea9cf2dd3e8c0"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -9857,7 +10246,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["dfab4be2404abc31", "cafe545a2efbe9c2"],
+							"value": [
+								"dfab4be2404abc31",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -9966,11 +10358,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 38
 									}
 								}
 							],
-							"In": ["cafe8f3dab4516c3"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10047,11 +10446,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 39
 									}
 								}
 							],
-							"In": ["cafe9b041d7bea81"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10128,11 +10534,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 30
 									}
 								}
 							],
-							"In": ["cafe9a561654d2ed"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10173,7 +10586,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -10183,7 +10596,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -10383,11 +10796,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 33
 									}
 								}
 							],
-							"In": ["cafef177d207ad70"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10419,7 +10839,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["54084e9b741e8f5b", "cafe545a2efbe9c2"],
+							"value": [
+								"54084e9b741e8f5b",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -10528,11 +10951,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 34
 									}
 								}
 							],
-							"In": ["cafe988d9900f16e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10609,11 +11039,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 35
 									}
 								}
 							],
-							"In": ["cafee20ab1e33118"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10690,11 +11127,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 36
 									}
 								}
 							],
-							"In": ["cafef3bab0cb4a71"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10735,7 +11179,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -10745,7 +11189,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -10922,11 +11366,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 41
 									}
 								}
 							],
-							"In": ["cafed9e21ba732c8"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -10958,7 +11409,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["a0e314d8ab77a898", "cafe545a2efbe9c2"],
+							"value": [
+								"a0e314d8ab77a898",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -11067,11 +11521,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 42
 									}
 								}
 							],
-							"In": ["cafe9c8e407be183"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11148,11 +11609,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 43
 									}
 								}
 							],
-							"In": ["cafe78b76560b504"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11229,11 +11697,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 44
 									}
 								}
 							],
-							"In": ["cafee564f3f429f3"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11274,7 +11749,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -11284,7 +11759,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -11507,11 +11982,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 45
 									}
 								}
 							],
-							"In": ["cafea913e06aa4e6"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11543,7 +12025,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["298378803e19d24f", "cafe545a2efbe9c2"],
+							"value": [
+								"298378803e19d24f",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -11652,11 +12137,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 46
 									}
 								}
 							],
-							"In": ["cafe0cc768dfa695"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11733,11 +12225,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 47
 									}
 								}
 							],
-							"In": ["cafebbfca0c32ea4"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11814,11 +12313,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 48
 									}
 								}
 							],
-							"In": ["cafee9e52cf9c17e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -11859,7 +12365,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -11869,7 +12375,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -12069,11 +12575,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 49
 									}
 								}
 							],
-							"In": ["cafedd672060187f"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12105,7 +12618,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["cbdcd61b9f3aecc6", "cafe545a2efbe9c2"],
+							"value": [
+								"cbdcd61b9f3aecc6",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -12214,11 +12730,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 50
 									}
 								}
 							],
-							"In": ["cafee16b6bd21e05"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12246,7 +12769,7 @@
 				"cafe85867ba5d9ba",
 				{
 					"parent": "cafef68f9533a39d",
-					"name": "Level 3",
+					"name": "Level 4",
 					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
 					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
 					"properties": {
@@ -12297,9 +12820,16 @@
 										"type": "int32",
 										"value": -8000
 									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 52
+									}
 								}
 							],
-							"In": ["cafe9d68cbe05b64"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12327,7 +12857,7 @@
 				"cafe3c29b11c279d",
 				{
 					"parent": "cafef68f9533a39d",
-					"name": "Level 4",
+					"name": "Level 3",
 					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
 					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
 					"properties": {
@@ -12376,11 +12906,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 51
 									}
 								}
 							],
-							"In": ["cafec6a27338159d"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12421,7 +12958,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -12431,7 +12968,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -12631,11 +13168,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 53
 									}
 								}
 							],
-							"In": ["cafe23f73a18780a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12667,7 +13211,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["749fbe32e7cc40e3", "cafe545a2efbe9c2"],
+							"value": [
+								"749fbe32e7cc40e3",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -12776,11 +13323,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 54
 									}
 								}
 							],
-							"In": ["cafeb2ed2699954b"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12857,11 +13411,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 55
 									}
 								}
 							],
-							"In": ["cafe2f1bdd3db815"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12938,11 +13499,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 56
 									}
 								}
 							],
-							"In": ["cafe7d55a6b0af86"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -12983,7 +13551,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -12993,7 +13561,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -13193,11 +13761,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 57
 									}
 								}
 							],
-							"In": ["cafe3e8df337cd40"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13229,7 +13804,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["a7eb55c4b1a093ba", "cafe545a2efbe9c2"],
+							"value": [
+								"a7eb55c4b1a093ba",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -13338,11 +13916,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 58
 									}
 								}
 							],
-							"In": ["cafee81e8d2ee127"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13419,11 +14004,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 59
 									}
 								}
 							],
-							"In": ["cafe99f963662e25"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13500,11 +14092,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 60
 									}
 								}
 							],
-							"In": ["cafe8fef3900989c"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13545,7 +14144,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -13555,7 +14154,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -13755,11 +14354,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 61
 									}
 								}
 							],
-							"In": ["cafecd8d16f0d4e6"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13791,7 +14397,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["362ee7ee11446e29", "cafe545a2efbe9c2"],
+							"value": [
+								"362ee7ee11446e29",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -13900,11 +14509,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 62
 									}
 								}
 							],
-							"In": ["cafee5222768968f"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -13981,11 +14597,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 63
 									}
 								}
 							],
-							"In": ["cafeb0677d4fc43e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14062,11 +14685,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 64
 									}
 								}
 							],
-							"In": ["cafee350285aa809"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14107,7 +14737,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -14117,7 +14747,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -14294,11 +14924,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 65
 									}
 								}
 							],
-							"In": ["cafeba4acb83407a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14330,7 +14967,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["27f2bb552eec6fee", "cafe545a2efbe9c2"],
+							"value": [
+								"27f2bb552eec6fee",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -14439,11 +15079,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 66
 									}
 								}
 							],
-							"In": ["cafe86355247714e"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14520,11 +15167,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 67
 									}
 								}
 							],
-							"In": ["cafea5246aba0336"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14601,11 +15255,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 68
 									}
 								}
 							],
-							"In": ["cafe1625addbf06d"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14646,7 +15307,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -14656,7 +15317,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -14879,11 +15540,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 69
 									}
 								}
 							],
-							"In": ["cafe0663abafedf3"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -14915,7 +15583,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["95bb7fcd4056a90f", "cafe545a2efbe9c2"],
+							"value": [
+								"95bb7fcd4056a90f",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -15024,11 +15695,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 70
 									}
 								}
 							],
-							"In": ["cafe0a172bc67fab"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15105,11 +15783,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 71
 									}
 								}
 							],
-							"In": ["cafe189cfaceef28"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15186,11 +15871,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 72
 									}
 								}
 							],
-							"In": ["cafe0b637420166d"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15231,7 +15923,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -15241,7 +15933,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -15418,11 +16110,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -4000
+										"value": -2000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 73
 									}
 								}
 							],
-							"In": ["cafe9fb58c9cee5b"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15454,7 +16153,10 @@
 						},
 						"m_aValues": {
 							"type": "TArray<SEntityTemplateReference>",
-							"value": ["05263ba537b9d150", "cafe545a2efbe9c2"],
+							"value": [
+								"05263ba537b9d150",
+								"cafe545a2efbe9c2"
+							],
 							"postInit": true
 						}
 					},
@@ -15563,11 +16265,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -6000
+										"value": -4000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 74
 									}
 								}
 							],
-							"In": ["cafe95b07d7dd44f"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15644,11 +16353,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -8000
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 75
 									}
 								}
 							],
-							"In": ["cafeae542389de51"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15725,11 +16441,18 @@
 									"ref": "cafe27a0e4cb76ae",
 									"value": {
 										"type": "int32",
-										"value": -10000
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 76
 									}
 								}
 							],
-							"In": ["cafe1b3dec75407a"]
+							"Show": ["cafe348fbdf0d2e9"]
 						}
 					}
 				}
@@ -15770,7 +16493,7 @@
 						},
 						"m_Condition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_VisibleCondition": {
@@ -15780,7 +16503,7 @@
 						},
 						"m_UseableCondition": {
 							"type": "SEntityTemplateReference",
-							"value": "cafefcb433f9fd93",
+							"value": "cafebc0221eb5f02",
 							"postInit": true
 						},
 						"m_eButton": {
@@ -15824,14 +16547,380 @@
 		},
 		{
 			"AddEntity": [
-				"cafefcb433f9fd93",
+				"cafebc0221eb5f02",
 				{
 					"parent": "cafe16676a06e701",
-					"name": "fact checked true by real ica agents",
+					"name": "fact checked true by real providence agents",
 					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 					"properties": {
 						"m_bValue": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe434cb01032d3",
+				{
+					"parent": "cafe107e2d4768e4",
+					"name": "Access Disguise CPD",
+					"factory": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valueint.template?/valueint_set.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rValueEntity": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "cafe8d4f7c46bcba",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe348fbdf0d2e9",
+				{
+					"parent": "cafe65e7710c9e42",
+					"name": "UI_Splash_Mission_Purchased",
+					"factory": "00E79210C11996CF",
+					"blueprint": "00DB52364A1C9BBF",
+					"properties": {
+						"m_pTitleResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F1A6C8AD0CFB0E",
+								"flag": "5F"
+							}
+						},
+						"m_pDescriptionResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00F3B8F6C97A5A90",
+								"flag": "5F"
+							}
+						}
+					},
+					"events": {
+						"Opened": {
+							"Hide": ["cafe24f7d400c80b"],
+							"Reset": [
+								"cafe348fbdf0d2e9",
+								"cafe24f7d400c80b"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe24f7d400c80b",
+				{
+					"parent": "cafe65e7710c9e42",
+					"name": "UI_Splash_Mission_Refunded",
+					"factory": "00E79210C11996CF",
+					"blueprint": "00DB52364A1C9BBF",
+					"properties": {
+						"m_pTitleResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "008BD2C78102DB27",
+								"flag": "5F"
+							}
+						},
+						"m_pDescriptionResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "001D8CD98F00B204",
+								"flag": "5F"
+							}
+						}
+					},
+					"events": {
+						"Opened": {
+							"Hide": ["cafe348fbdf0d2e9"],
+							"Reset": [
+								"cafe348fbdf0d2e9",
+								"cafe24f7d400c80b"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefa6bb49ec221",
+				{
+					"parent": "cafec3279eabdd0a",
+					"name": "Level 3",
+					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
+					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
+					"properties": {
+						"m_rPromptTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007F8E5E256DD974",
+								"flag": "5F"
+							}
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": "0014A990C2F35E22"
+						},
+						"m_Condition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedd943253d88d",
+							"postInit": true
+						},
+						"m_VisibleCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe6496b57659a3",
+							"postInit": true
+						},
+						"m_UseableCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedd943253d88d",
+							"postInit": true
+						},
+						"m_eButton": {
+							"type": "ZInputListenerButtonEntity.eInputListenerButtons",
+							"value": "EILB_RIGHT"
+						},
+						"m_bUseOrientedPrompts": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"OnPressed": {
+							"DEBUG_ExitSafeZone": ["cafebb484588079c"],
+							"Send": ["cafe4686f9fef98a"],
+							"SetTrue": ["cafe87a3e80b0993"],
+							"SetValue": [
+								{
+									"ref": "cafe27a0e4cb76ae",
+									"value": {
+										"type": "int32",
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 3
+									}
+								}
+							],
+							"Show": ["cafe348fbdf0d2e9"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe959bb8276edd",
+				{
+					"parent": "cafec3279eabdd0a",
+					"name": "Level 4",
+					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
+					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
+					"properties": {
+						"m_rPromptTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "007F8E5E256DD974",
+								"flag": "5F"
+							}
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": "0035E1A405F7A110"
+						},
+						"m_Condition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef9fb5184c947",
+							"postInit": true
+						},
+						"m_VisibleCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe6496b57659a3",
+							"postInit": true
+						},
+						"m_UseableCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef9fb5184c947",
+							"postInit": true
+						},
+						"m_eButton": {
+							"type": "ZInputListenerButtonEntity.eInputListenerButtons",
+							"value": "EILB_DOWN"
+						},
+						"m_bUseOrientedPrompts": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"OnPressed": {
+							"DEBUG_ExitSafeZone": ["cafebb484588079c"],
+							"Send": ["cafe4686f9fef98a"],
+							"SetTrue": ["cafea9c8e22dde6a"],
+							"SetValue": [
+								{
+									"ref": "cafe27a0e4cb76ae",
+									"value": {
+										"type": "int32",
+										"value": -8000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 4
+									}
+								}
+							],
+							"Show": ["cafe348fbdf0d2e9"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4ef8fe1727d4",
+				{
+					"parent": "cafe8aac2e282d28",
+					"name": "OpenHUB",
+					"factory": "[modules:/zopenmenupageentity.class].pc_entitytype",
+					"blueprint": "[modules:/zopenmenupageentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eMenu": {
+							"type": "EGameUIMenu",
+							"value": "eUIMenu_PhoneMenu"
+						},
+						"m_sPageName": {
+							"type": "ZString",
+							"value": "hub"
+						},
+						"m_bAddToHistory": {
+							"type": "bool",
+							"value": true
+						},
+						"m_pArgs": {
+							"type": "SEntityTemplateReference",
+							"value": null
+						},
+						"m_bClearHistory": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe45f30d589861",
+				{
+					"parent": "cafe56ec37a4d2c1",
+					"name": "Level 4",
+					"factory": "[modules:/zinputlistenerbuttonentity.class].pc_entitytype",
+					"blueprint": "[modules:/zinputlistenerbuttonentity.class].pc_entityblueprint",
+					"properties": {
+						"m_rPromptTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00A1DF775965847C",
+								"flag": "5F"
+							}
+						},
+						"m_rPromptDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": "00E2B7136C0D7290"
+						},
+						"m_Condition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedd943253d88d",
+							"postInit": true
+						},
+						"m_VisibleCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe147aa0e05381",
+							"postInit": true
+						},
+						"m_UseableCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafedd943253d88d",
+							"postInit": true
+						},
+						"m_eButton": {
+							"type": "ZInputListenerButtonEntity.eInputListenerButtons",
+							"value": "EILB_DOWN"
+						},
+						"m_bUseOrientedPrompts": {
+							"type": "bool",
+							"value": false
+						}
+					},
+					"events": {
+						"OnPressed": {
+							"DEBUG_ExitSafeZone": ["cafed22d419324cf"],
+							"Send": ["cafe4686f9fef98a"],
+							"SetTrue": ["cafe87a3e80b0993"],
+							"SetValue": [
+								{
+									"ref": "cafe27a0e4cb76ae",
+									"value": {
+										"type": "int32",
+										"value": -6000
+									}
+								},
+								{
+									"ref": "cafe434cb01032d3",
+									"value": {
+										"type": "int32",
+										"value": 28
+									}
+								}
+							],
+							"Show": ["cafe348fbdf0d2e9"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef0e8319c8ced",
+				{
+					"parent": "cafe65e7710c9e42",
+					"name": "Money Returned",
+					"factory": "[modules:/zaudioevententity.class].pc_entitytype",
+					"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
+					"properties": {
+						"m_pMainEvent": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00AF101D1870A672",
+								"flag": "5F"
+							}
+						},
+						"m_bIsEnabled": { "type": "bool", "value": true },
+						"m_pEmitter": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "be79f2534d4c0c12",
+								"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+							}
+						}
 					}
 				}
 			]

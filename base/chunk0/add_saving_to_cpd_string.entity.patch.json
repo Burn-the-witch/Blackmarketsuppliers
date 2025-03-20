@@ -1,0 +1,32 @@
+{
+	"tempHash": "006261BA6824FD19",
+	"tbluHash": "00A7BBEEA0E51EE4",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0b06db78db4f95f4",
+				{
+					"AddProperty": [
+						"m_SaveOnChange",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4bb8e46a47a89a48",
+				{
+					"AddPropertyAliasConnection": [
+						"SaveOnEveryChange",
+						{
+							"originalProperty": "m_SaveOnChange",
+							"originalEntity": "0b06db78db4f95f4"
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}
